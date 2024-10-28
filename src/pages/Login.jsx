@@ -41,7 +41,7 @@ const Login = () => {
     <>
       {success ? <AlertSuccess alert='User Register Successfully!' /> : error ? <AlertError alert={error} /> : null}
 
-      <div className='container text-center p-4 mt-5 bg-light rounded'>
+      <div className='container text-center p-4 mt-5 bg-dark rounded shadow p-3 mb-5 bg-body rounded'>
         <h1>User Login</h1>
         <form onSubmit={userLogin} style={{ width: '60%', margin: 'auto' }}>
           <div className="mb-3">

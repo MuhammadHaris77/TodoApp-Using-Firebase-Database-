@@ -3,7 +3,7 @@ import React from 'react'
 const AlertSuccess = ({alert}) => {
     return (
         <div>
-            <div class="alert alert-success" role="alert">
+            <div className="alert alert-success" role="alert">
                 {alert}
             </div>
         </div>

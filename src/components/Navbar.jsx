@@ -23,7 +23,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light rounded">
       <div className="container-fluid">
         <h3> Todo App</h3>
         <button

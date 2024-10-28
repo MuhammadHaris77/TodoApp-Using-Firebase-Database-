@@ -15,7 +15,7 @@ const Todo = ({reference,func}) => {
           aria-describedby="basic-addon2"
           ref={reference}
         />
-        <button  className='bg-dark text-white rounded'>
+        <button  className='bg-dark text-white rounded p-2'>
           ADD TODO
         </button>
         </div>
